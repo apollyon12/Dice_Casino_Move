@@ -1,0 +1,9 @@
+[package]
+name = "Casino"
+version = "0.0.0"
+
+[addresses]
+CasinoAddress = "_"
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework/", rev = "aptos-cli-v0.3.2" }
